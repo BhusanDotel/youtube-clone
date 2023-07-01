@@ -1,5 +1,4 @@
 .sidebar{
-    background-color: white;
     margin-top: 57px;
     height: 430px;
     display: flex;
@@ -26,8 +25,18 @@
     margin-top: 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width:350px) {
     .sidebar{
-       height: 30px;
+       height: 350px;
+    }
+    .icon{
+        margin-top: 10px;
+        height: 18px;
+        width: 18px;
+    }
+    .icon_label{
+        font-size: 10px;
+        margin-top: 4px;
+        font-weight: 800;
     }
 }
