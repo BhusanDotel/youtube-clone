@@ -1,0 +1,33 @@
+.sidebar{
+    background-color: white;
+    margin-top: 57px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: 47px;
+
+}
+.icon_and_label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icon{
+    margin-top: 10px;
+    height: 24px;
+    width: 24px;
+}
+.icon_label{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar{
+       height: 30px;
+    }
+}
