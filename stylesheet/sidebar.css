@@ -28,7 +28,7 @@
 @media  screen and (max-width:450px) {
     .sidebar{
         background-color: white;
-        height: 50px;
+        height: 39px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -40,13 +40,18 @@
         left: 0;
     }
     .icon{
-        margin-top: 10px;
         height: 18px;
         width: 18px;
     }
     .icon_label{
-        font-size: 10px;
+        font-size: 8px;
         margin-top: 4px;
         font-weight: 800;
+    }
+    .icon_and_label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
     }
 }
