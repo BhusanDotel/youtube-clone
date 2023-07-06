@@ -149,9 +149,6 @@
 
 @media screen and (min-width:0px) and (max-width:344px) {
 
-    .navbar{
-        background-color: lightseagreen;
-    }
     .notification_counter{
         visibility: hidden;
     }
@@ -226,9 +223,6 @@
 
 @media screen and (min-width:288px) and (max-width:345px) {
 
-    .navbar{
-        background-color: lightgray;
-    }
     .middle_section{
         height: 25px;
     }
@@ -301,9 +295,6 @@
 
 @media screen and (min-width:345px) and (max-width:500px) {
 
-    .navbar{
-        background-color: lightpink;
-    }
 
     .middle_section{
         height: 25px;
@@ -377,9 +368,6 @@
 
 @media screen and (min-width : 500px ) {
 
-    .navbar{
-    background-color: lightblue;    
-    }
     .middle_section{
         height: 30px;
     }
@@ -423,7 +411,6 @@
 }
 @media screen and (min-width : 1000px ) {
     .navbar{
-        background-color: lightcoral;
         margin-top: -10px;
         background-color: rgb(255, 255, 255);
         display: flex;
