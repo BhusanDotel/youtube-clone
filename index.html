@@ -16,6 +16,20 @@
             display: grid;
             grid-template-columns: 78px 1fr;
         }
+
+        @media screen and (max-width:450px){
+            body{
+                background-color: bisque;
+            }
+            .main_body{
+                display: flex;
+                flex-direction: column;
+            }
+            .video_view{
+                flex: 1;
+                margin-left: 0;
+            }
+        } 
     </style>
 </head>
 <body>
