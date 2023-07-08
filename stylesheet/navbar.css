@@ -223,6 +223,7 @@
 
 @media screen and (min-width:288px) and (max-width:345px) {
 
+
     .middle_section{
         height: 25px;
     }
@@ -296,6 +297,14 @@
 @media screen and (min-width:345px) and (max-width:500px) {
 
 
+    .navbar::after{
+        border: none;
+    }
+    .navbar{
+        border-bottom: 1px solid rgb(216, 216, 216);
+        left: 0;
+    }
+
     .middle_section{
         height: 25px;
     }
@@ -368,6 +377,7 @@
 
 @media screen and (min-width : 500px ) {
 
+
     .middle_section{
         height: 30px;
     }
@@ -422,12 +432,13 @@
         position: fixed;
         width: 100%;
         z-index: 1;
+        left: 0;
     }
     .navbar::after{
         content: '';
         position: absolute;
         bottom: 0;
-        left: 95px;
+        left: 110px;
         width: calc(100% - 100px);
         border-bottom: 1px solid rgb(216, 216, 216);
     }
