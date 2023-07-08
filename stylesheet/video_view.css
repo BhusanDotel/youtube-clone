@@ -83,7 +83,6 @@ p{
 @media screen and (max-width: 480px) {
     .video_view {
         grid-template-columns: 1fr;
-        margin-left: 78px;
         margin-right: 10px;
     }
 
@@ -106,5 +105,16 @@ p{
     .author_name,
     .video_stats {
         font-size: 10px;
+    }
+    .video_detail{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 35px 1fr;
+    }
+    .author_name{
+        margin-bottom: 3px;
+    }
+    .video_title{
+        margin-bottom: 10px;
     }
 }

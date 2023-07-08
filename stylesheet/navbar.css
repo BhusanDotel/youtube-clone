@@ -352,10 +352,10 @@
         position: relative;
     }
     .notification_counter{
-        right: 58px;
+        right: 62px;
         font-size: 10px;
         width: 12px;
-        top: 18px;
+        top: 22px;
         position: absolute;
     }
     .my_profile{
